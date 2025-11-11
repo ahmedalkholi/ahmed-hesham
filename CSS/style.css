@@ -113,7 +113,7 @@ body.darkTheme {
   --border-clr: hsl(230, 12%, 18%);
   --white-clr: hsl(0, 0%, 100%);
   --body-color: #333;
-  --container-clr: hsl(230, 12%, 12%);
+  --container-clr: hsl(230, 12%, 32%);
 }
 /*========== Dark & Day Theme ==========*/
 .darkTheme header {
@@ -327,6 +327,7 @@ main .social_icons i {
 }
 main .main-image {
   max-width: 500px;
+
 }
 @media (min-width: 50em) {
   main {
@@ -459,4 +460,8 @@ main .main-image {
   #contact .social_icons i {
     font-size: 1.2rem;
   }
+}
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
 }
